@@ -4,7 +4,7 @@
 <section class="masthead d-flex align-items-center">
     <div class="container px-4 px-lg-5">
         <div class="content-section-heading text-center">
-{{--            <h3 class="text-secondary mb-0">G4F Desenvolvedor FullStack</h3>--}}
+            <h3 class="text-secondary mb-0">G4F Desenvolvedor FullStack</h3>
             <h2 class="mb-5">Prova de conceito</h2>
         </div>
         <div class="row gx-0">
