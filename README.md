@@ -12,6 +12,16 @@ navegue até a pasta project:
 
 cd project
 
+instale as dependências com composer:
+
+composer install
+
+renomeie o arquivo .env.example para .env
+
+precisamos gerar a chave do lavável
+
+php artisan key:generate
+
 agora é só rodar as migrations e seeders:
 
 php artisan migrate --seed
