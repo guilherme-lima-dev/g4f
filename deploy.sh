@@ -1,4 +1,4 @@
-cd project
+cd /g4f/project
 cp .env.example .env
 composer install
 php artisan key:generate

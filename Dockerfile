@@ -35,6 +35,9 @@ WORKDIR /g4f
 
 RUN chown -R www-data:www-data /g4f
 RUN chmod -R 777 /g4f
-RUN chmod +x /g4f/deploy.sh
+
+ADD deploy.sh /g4f
+
+RUN ["chmod", "+x", "/g4f/deploy.sh"]
 
 #COPY . .
