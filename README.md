@@ -14,7 +14,7 @@ Neste momento, deixarei um script com todos os comandos a seguir, basta rodar:
 
 E após isso acessar o navegador: http://localhost:9002
 
-De qualquer forma caso queira implementar manualmente, segue os passos.
+De qualquer forma caso ocorra algum erro ou queira implementar manualmente, segue os passos.
 
 navegue até a pasta project:
 
