@@ -1,7 +1,5 @@
 FROM php:8.1-fpm-alpine
 
-WORKDIR /g4f
-
 ADD https://github.com/mlocati/docker-php-extension-installer/releases/latest/download/install-php-extensions /usr/local/bin/
 RUN chmod +x /usr/local/bin/install-php-extensions && sync
 
@@ -32,6 +30,11 @@ ENV PATH=$PATH:/root/composer/vendor/bin COMPOSER_ALLOW_SUPERUSER=1
 
 # Clean repository
 RUN rm -Rf /var/cache/apk/*
-RUN chown -R www-data:www-data /var/www/html
-RUN chmod -R 777 /var/www/html
+
+WORKDIR /g4f
+
+RUN chown -R www-data:www-data /g4f
+RUN chmod -R 777 /g4f
+RUN chmod +x /g4f/deploy.sh
+
 #COPY . .
