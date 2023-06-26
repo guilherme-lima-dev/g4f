@@ -12,13 +12,15 @@ navegue até a pasta project:
 
 cd project
 
+copie o arquivo .env.example para um arquivo .env
+
+cp .env.example .env
+
 instale as dependências com composer:
 
 composer install
 
-renomeie o arquivo .env.example para .env
-
-precisamos gerar a chave do lavável
+precisamos gerar a chave do laravel
 
 php artisan key:generate
 
