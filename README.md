@@ -8,6 +8,14 @@ entre no container com:
 
 docker exec -it g4f_php /bin/sh
 
+Neste momento, deixarei um script com todos os comandos a seguir, basta rodar:
+
+./deploy.sh
+
+E após isso acessar o navegador: http://localhost:9002
+
+De qualquer forma caso queira implementar manualmente, segue os passos.
+
 navegue até a pasta project:
 
 cd project
